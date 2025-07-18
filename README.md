@@ -10,12 +10,14 @@ The goal was to make the generated speech feel relatable and authentic to Nigeri
 
 
  #Voice ID Used
+ 
  I selected voice(s) from the ElevenLabs Voice Library that best matched Nigerian English tonality.
 Voice_ID Female:WjC4A2cTO3MVjWo1GIkW
 
  Note: These voices were chosen based on clarity, tone, and how well they reflect Nigerian English pronunciation from the ElevenLabs voice library.
 
  #Pronunciation Handling
+ 
  I used ElevenLabs' eleven_multilingual_v2 model for improved pronunciation of African dialects.
 Adjusted stability and similarity_boost to slow down speech and enhance clarity.
 Introduced a replacement dictionary in future versions to fix common mispronunciations.
@@ -27,6 +29,7 @@ Slight punctuation spacing
 Word breaks using commas and spaces
 
 #Features
+
 Text input for English
 Voice dropdown
 Generate audio with ElevenLabs
@@ -35,8 +38,9 @@ Download audio file
 Clean UI with emojis
 
 #Tech Stack
-Python
-Gradio for UI
+
+Python,
+Gradio for UI,
 ElevenLabs API for TTS
 
  #Summary
