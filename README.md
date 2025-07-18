@@ -45,9 +45,6 @@ Python
 Gradio for UI
 ElevenLabs API for TTS
 
-
-
-
  #Summary
 
 This app was built as an introductory project for applying data science and AI to language technology. We aimed to create a realistic voice application for Nigerian audiences and demonstrate how TTS can adapt to local languages and accents.
