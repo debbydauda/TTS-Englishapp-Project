@@ -19,13 +19,20 @@ Voice_ID Female:WjC4A2cTO3MVjWo1GIkW
  # Pronunciation Handling
  
  I used ElevenLabs' eleven_multilingual_v2 model for improved pronunciation of African dialects.
+ 
 Adjusted stability and similarity_boost to slow down speech and enhance clarity.
+
 Introduced a replacement dictionary in future versions to fix common mispronunciations.
+
 I crafted input text using phrases and sentence patterns commonly used in Nigeria.(eg  Instead of “Did they ignore it after removal?”, we used: 
    `"When he removed them now, did they ignore the removal?" 
+   
 `Also slowed down speech slightly using:
+
 Lower stability (0.5)
+
 Slight punctuation spacing
+
 Word breaks using commas and spaces
 
 # Features
