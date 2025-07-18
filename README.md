@@ -31,16 +31,23 @@ Word breaks using commas and spaces
 # Features
 
 Text input for English
+
 Voice dropdown
+
 Generate audio with ElevenLabs
+
 Audio playback
+
 Download audio file
+
 Clean UI with emojis
 
 # Tech Stack
 
-Python,
-Gradio for UI,
+Python
+
+Gradio for UI
+
 ElevenLabs API for TTS
 
  # Summary
